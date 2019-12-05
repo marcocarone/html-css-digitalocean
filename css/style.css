@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* TOP HEADER */
 .top-header {
   position: fixed;
   top: 0;
@@ -13,7 +14,9 @@ body {
 }
 
 .logo-header {
-  vertical-align: middle;
+  position: relative;
+  top: 9px;
+  left: 0;
   width: 180px;
 }
 
@@ -23,8 +26,28 @@ body {
 
 .menu_inline a {
   text-decoration: none;
+  vertical-align: middle;
 }
 
+.menu-color {
+  color: #031B4E;
+}
+
+.fa-chevron-down:before {
+  position: relative;
+  top: 2px;
+}
+
+.button-sign-up {
+  color: #0069FF;
+  border: 1px solid #0069FF;
+  border-radius: 5px;
+}
+
+.button-sign-up:hover {
+  background-color: #0069FF;
+  color: #ffffff;
+}
 /* INIZIO JUMBOTRON */
 .jumbotron {
   background-image: url(../img/bg-home.jpg);
@@ -55,6 +78,7 @@ body {
   padding: 5px;
   border: 1px solid #EEE;
 }
+
 .form-button {
   background-color: #579aff;
   color: #ffffff;
@@ -64,9 +88,14 @@ body {
   padding: 5px 10px;
   border: 1px solid #ffffff;
   cursor: pointer;
-
 }
+
+.form-button:hover {
+  background-color: #0069ff;
+}
+
 .google-button {
+  background-color: white;
   width: 100%;
   border-radius: 5px;
   line-height: 1.6em;
@@ -74,7 +103,6 @@ body {
   -webkit-box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.1);
-  background-color: white;
   border: 1px solid #EEE;
   cursor: pointer;
 }
@@ -93,4 +121,19 @@ body {
   position: absolute;
   background: url('../img/google-icon.png');
   background-size: cover;
+}
+
+.jumbotron h5 a {
+  color: #0069FF;
+  text-decoration: underline;
+}
+
+.h3-1 {
+  font-size: 1.8em;
+  color: #031b4e;
+}
+
+.h3-2 {
+  font-size: 1.8em;
+  color: #0069FF;
 }
