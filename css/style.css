@@ -137,3 +137,33 @@ body {
   font-size: 1.8em;
   color: #0069FF;
 }
+
+/* SEZIONE CUSTOMER */
+.customer {
+  background-color: #f3f5f9;
+}
+.customer img {
+  width: 130px;
+}
+
+.line-height {
+  line-height: 120px;
+}
+
+.v-align {
+  vertical-align: middle;
+}
+
+.h3-customer {
+  font-size: 1.1em;
+  color: #6f7b97;
+}
+
+.customer-link {
+  color: #0069FF;
+}
+.customer-link:hover,
+.customer-link:focus,
+.customer-link:active{
+  color: #085fdb;
+}
