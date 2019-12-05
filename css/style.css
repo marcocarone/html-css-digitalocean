@@ -33,11 +33,6 @@ body {
   background-size: auto;
 }
 
-.box-white {
-  background-color: #ffffff;
-  border-radius: 5px;
-}
-
 .jumbotron h1 {
   font-size: 4em;
   color: #ffffff;
@@ -46,4 +41,56 @@ body {
 .jumbotron p {
   font-size: 1.4em;
   color: #a1bbff;
+}
+
+.box-white {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 5px;
+  line-height: 2em;
+  padding: 5px;
+  border: 1px solid #EEE;
+}
+.form-button {
+  background-color: #579aff;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 5px;
+  line-height: 1.6em;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+
+}
+.google-button {
+  width: 100%;
+  border-radius: 5px;
+  line-height: 1.6em;
+  padding: 5px 10px;
+  -webkit-box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid #EEE;
+  cursor: pointer;
+}
+
+.google-button:hover {
+  color: #031b4e;
+  background-color: #f2f8ff;
+  border: 1px solid rgba(0, 105, 255, .2);
+}
+
+.google-button::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: url('../img/google-icon.png');
+  background-size: cover;
 }
