@@ -9,7 +9,7 @@ body {
   z-index: 3;
   width: 100%;
   line-height: 65px;
-  background-color: red;
+  background-color: #ffffff;
 }
 
 .logo-header {
@@ -17,14 +17,33 @@ body {
   width: 180px;
 }
 
-.list_style {
-  list-style: none;
-}
-
-.list_style a {
-  display: inline-block;
-}
-
 .menu_inline li {
   display: inline-block;
+}
+
+.menu_inline a {
+  text-decoration: none;
+}
+
+/* INIZIO JUMBOTRON */
+.jumbotron {
+  background-image: url(../img/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.box-white {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.jumbotron h1 {
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.jumbotron p {
+  font-size: 1.4em;
+  color: #a1bbff;
 }
