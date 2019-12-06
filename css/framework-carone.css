@@ -30,6 +30,10 @@
   list-style: none;
 }
 
+.line_height {
+  line-height: 30px;
+}
+
 /* TRANSITION */
 .transition {
   -webkit-transition: background 0.4s ease-in-out;
@@ -39,13 +43,23 @@
   transition: background 0.4s ease-in-out;
 }
 
+.transition-2 {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
 /* TYPOGRAPHY */
 .font_w_300 {
   font-weight: 300;
 }
+
 .font_w_400 {
   font-weight: 400;
 }
+
 .font_w_500 {
   font-weight: 500;
 }

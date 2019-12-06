@@ -2,6 +2,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* GENERALI */
+.h3-4 {
+  font-size: 2.1em;
+  color: #ffffff;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.grey {
+  color: #bac5e6;
+}
+
 /* TOP HEADER */
 .top-header {
   position: fixed;
@@ -48,6 +62,7 @@ body {
   background-color: #0069FF;
   color: #ffffff;
 }
+
 /* INIZIO JUMBOTRON */
 .jumbotron {
   background-image: url(../img/bg-home.jpg);
@@ -142,6 +157,7 @@ body {
 .customer {
   background-color: #f3f5f9;
 }
+
 .customer img {
   width: 130px;
 }
@@ -162,14 +178,14 @@ body {
 .customer-link {
   color: #0069FF;
 }
+
 .customer-link:hover,
 .customer-link:focus,
-.customer-link:active{
+.customer-link:active {
   color: #085fdb;
 }
 
 /* SEZIONE DEPLOY */
-
 .h3-3 {
   font-size: 2.1em;
   color: #031b4e;
@@ -205,7 +221,6 @@ body {
 }
 
 /* SEZIONE DESIGNED */
-
 .designed img {
   width: 100%;
 }
@@ -222,27 +237,95 @@ line-height: 370px;
 .v-a {
   vertical-align: middle;
 } */
-
-.slider-p  ul{
+.slider-p ul {
   list-style-type: none;
 }
-.slider-p ul li{
-    display:inline-block;
-    color: #0069FF;
-    cursor: pointer;
+
+.slider-p ul li {
+  display: inline-block;
+  color: #0069FF;
+  cursor: pointer;
 }
-.slider-p ul li::before{
+
+.slider-p ul li::before {
   content: "\f111";
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
   font-size: 0.7em;
 }
-.slider-p ul li.active::before{
+
+.slider-p ul li.active::before {
   font-weight: 900;
 }
+
 .slider-p ul li:hover::before,
 .slider-p ul li:active::before,
-.slider-p ul li:focus::before{
+.slider-p ul li:focus::before {
   font-weight: 900;
-  opacity:0.8;
+  opacity: 0.8;
+}
+
+/* SEZIONE SERVICE */
+.bg-gradient {
+  background: #0047C5;
+  /* fallback color if gradients are not supported*/
+  background: -webkit-linear-gradient(#0047C5, #00209B);
+  background: -moz-linear-gradient(#0047C5, #00209B);
+  background: -o-linear-gradient(#0047C5, #00209B);
+  background: linear-gradient(#0047C5, #00209B);
+}
+
+.b-bottom {
+  border-bottom: 1px solid #FFF;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+  margin-right: 20px;
+}
+
+.customer-link-2 {
+  color: #00d7d2;
+}
+
+.customer-link-2:hover,
+.customer-link-2:focus,
+.customer-link-2:active {
+  color: #085fdb;
+}
+
+/* SEZIONE DEVELOPMENT */
+/* SEZIONE GET STARTED */
+.button-account {
+  color: #0069FF;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.button-account:hover {
+  background-color: #0069FF;
+  color: #ffffff;
+}
+
+/* FOOTER */
+.bg-dark-blue {
+  background-color: #031B4E;
+}
+
+.footer h4 {
+  font-size: 1.2em;
+  padding-bottom: 15px;
+}
+
+.footer a,
+.footer p {
+  color: #7a859d;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.social-link {
+  font-size: 1.4em;
 }
