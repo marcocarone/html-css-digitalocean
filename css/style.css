@@ -296,10 +296,8 @@ body {
 /* SEZIONE DEVELOPMENT */
 
 .slider-dev-img {
-width: 100%
+width: 300px;
 }
-
-
 
 .bg-dev-cont {
   background-color: #ffffff;
@@ -344,6 +342,29 @@ width: 100%
   font-size: 1.4em;
 }
 
+/* DIRECT MESSAGE */
+.direct-message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  width: 450px;
+}
+
+.direct-left,
+.direct-right {
+  float: left;
+}
+
+.direct-left {
+  width: 80%;
+}
+
+.direct-right {
+  width: 20%;
+}
+
+/* MEDIA QUERY */
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .jumbotron h1 {
     font-size: 2.7em;
@@ -364,7 +385,6 @@ width: 100%
   .margin_bot {
     margin-bottom: 40px;
   }
-
 
   .min-h {
     min-height: 120px;
