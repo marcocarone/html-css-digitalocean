@@ -348,7 +348,6 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-
   width: 470px;
 }
 
@@ -366,6 +365,7 @@ body {
 }
 
 .cube-icon {
+  position: relative;
   background: #0069FF;
   width: 65px;
   height: 65px;
@@ -381,7 +381,31 @@ body {
   width: 100%;
 }
 
+.red-b {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background: red;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  -webkit-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.number {
+  position: relative;
+  bottom: 4px;
+  left: 5px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
 .text-area {
+  position: relative;
   background: #ffffff;
   width: 300px;
   border-radius: 5px;
@@ -391,6 +415,18 @@ body {
   box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
   margin-right: 20px;
 }
+
+.triangle {
+  position: absolute;
+  left: 320px;
+  top: 60px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .jumbotron h1 {
