@@ -22,6 +22,14 @@
   display: none;
 }
 
+.lg_display_none {
+  display: none;
+}
+
+.lg_display_block {
+  display: block;
+}
+
 .text_dec_none a {
   text-decoration: none;
 }
