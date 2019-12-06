@@ -164,7 +164,7 @@ body {
   background-color: #f3f5f9;
 }
 
-.customer img {
+.customer-img {
   width: 130px;
 }
 
@@ -209,7 +209,7 @@ body {
   border-left: 2px solid #cccccc;
 }
 
-.deploy img {
+.deploy-img {
   height: 40px;
 }
 
@@ -234,15 +234,9 @@ body {
 .arrow {
   color: #6f7b97;
   font-size: 2.3em;
+  padding-top: 160px;
 }
 
-/* .height-img-des {
-line-height: 370px;
-}
-
-.v-a {
-  vertical-align: middle;
-} */
 .slider-p ul {
   list-style-type: none;
 }
@@ -300,6 +294,20 @@ line-height: 370px;
 }
 
 /* SEZIONE DEVELOPMENT */
+
+.slider-dev-img {
+width: 100%
+}
+
+
+
+.bg-dev-cont {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.customer-2 {
+  background-color: #f3f5f9;
+}
 /* SEZIONE GET STARTED */
 .button-account {
   color: #0069FF;
@@ -357,8 +365,12 @@ line-height: 370px;
     margin-bottom: 40px;
   }
 
-  .slider-img {
-    width: 300px;
+
+  .min-h {
+    min-height: 120px;
+  }
+  .arrow {
+    padding-top: 100px;
   }
 }
 
@@ -385,5 +397,12 @@ line-height: 370px;
 
   .margin_bot {
     margin-bottom: 40px;
+  }
+  .arrow {
+    padding-top: 70px;
+    font-size: 1.4em;
+  }
+  .customer {
+    background-color: #f3f5f9;
   }
 }

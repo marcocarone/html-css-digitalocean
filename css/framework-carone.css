@@ -16,6 +16,24 @@
   padding: 0;
 }
 
+/* REGOLE CONTAINER */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* CLEARFIX */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* GENERALI */
 /* DISPLAY */
 .display_none {
@@ -577,17 +595,7 @@
   margin-left: 30px
 }
 
-/* REGOLE CONTAINER */
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
 
-.container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* REGOLE COLONNE */
 [class*="col-"] {
