@@ -207,12 +207,18 @@ body {
 .li a:hover {
   color: #031b4e;
 }
+
 .li li {
   padding: 10px;
   border-left: 2px solid #cccccc;
 }
 
 .li li:hover {
+  padding: 10px;
+  border-left: 2px solid #0069FF;
+}
+
+.li li:active {
   padding: 10px;
   border-left: 2px solid #0069FF;
 }
@@ -231,7 +237,7 @@ body {
 }
 
 .min-h {
-  min-height: 90px;
+  min-height: 100px;
 }
 
 /* SEZIONE DESIGNED */
@@ -458,7 +464,7 @@ body {
   }
 
   .min-h {
-    min-height: 120px;
+    min-height: 130px;
   }
 
   .arrow {
@@ -480,11 +486,11 @@ body {
   }
 
   .customer-img {
-    width: 180px;
+    width: 160px;
   }
 
   .min-h {
-    min-height: 70px;
+    min-height: 90px;
   }
 
   .margin_bot {
@@ -499,7 +505,15 @@ body {
   .customer {
     background-color: #f3f5f9;
   }
+
   .slider-dev-img {
     width: 90%;
+  }
+
+  .text-area {
+    left: 100px;
+    position: relative;
+    right: 100px;
+    width: 200px;
   }
 }
