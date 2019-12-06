@@ -167,3 +167,82 @@ body {
 .customer-link:active{
   color: #085fdb;
 }
+
+/* SEZIONE DEPLOY */
+
+.h3-3 {
+  font-size: 2.1em;
+  color: #031b4e;
+}
+
+.p-1,
+.li a {
+  font-size: 1.4em;
+  color: #5c6a88;
+  list-style: none;
+}
+
+.li li {
+  padding: 10px;
+  border-left: 2px solid #cccccc;
+}
+
+.deploy img {
+  height: 40px;
+}
+
+.h3-deploy {
+  font-size: 1.3em;
+  color: #031b4e;
+}
+
+.p-deploy {
+  color: #5c6a88;
+}
+
+.min-h {
+  min-height: 90px;
+}
+
+/* SEZIONE DESIGNED */
+
+.designed img {
+  width: 100%;
+}
+
+.arrow {
+  color: #6f7b97;
+  font-size: 2.3em;
+}
+
+/* .height-img-des {
+line-height: 370px;
+}
+
+.v-a {
+  vertical-align: middle;
+} */
+
+.slider-p  ul{
+  list-style-type: none;
+}
+.slider-p ul li{
+    display:inline-block;
+    color: #0069FF;
+    cursor: pointer;
+}
+.slider-p ul li::before{
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  font-size: 0.7em;
+}
+.slider-p ul li.active::before{
+  font-weight: 900;
+}
+.slider-p ul li:hover::before,
+.slider-p ul li:active::before,
+.slider-p ul li:focus::before{
+  font-weight: 900;
+  opacity:0.8;
+}
