@@ -294,18 +294,19 @@ body {
 }
 
 /* SEZIONE DEVELOPMENT */
-
 .slider-dev-img {
-width: 300px;
+  width: 300px;
 }
 
 .bg-dev-cont {
   background-color: #ffffff;
   border-radius: 5px;
 }
+
 .customer-2 {
   background-color: #f3f5f9;
 }
+
 /* SEZIONE GET STARTED */
 .button-account {
   color: #0069FF;
@@ -347,8 +348,8 @@ width: 300px;
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: red;
-  width: 450px;
+
+  width: 470px;
 }
 
 .direct-left,
@@ -364,6 +365,32 @@ width: 300px;
   width: 20%;
 }
 
+.cube-icon {
+  background: #0069FF;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cube-icon img {
+  width: 100%;
+}
+
+.text-area {
+  background: #ffffff;
+  width: 300px;
+  border-radius: 5px;
+  padding: 14px;
+  -webkit-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+}
 /* MEDIA QUERY */
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .jumbotron h1 {
@@ -389,6 +416,7 @@ width: 300px;
   .min-h {
     min-height: 120px;
   }
+
   .arrow {
     padding-top: 100px;
   }
@@ -418,10 +446,12 @@ width: 300px;
   .margin_bot {
     margin-bottom: 40px;
   }
+
   .arrow {
     padding-top: 70px;
     font-size: 1.4em;
   }
+
   .customer {
     background-color: #f3f5f9;
   }
