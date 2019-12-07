@@ -391,9 +391,6 @@ body {
   line-height: 65px;
   border-radius: 5px;
   padding: 10px;
-  -webkit-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .cube-icon img {
@@ -410,6 +407,9 @@ body {
   line-height: 30px;
   border-radius: 50%;
   border: 5px solid #ffffff;
+}
+
+.shadow {
   -webkit-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
   box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
@@ -429,9 +429,6 @@ body {
   width: 300px;
   border-radius: 5px;
   padding: 14px;
-  -webkit-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
   margin-right: 20px;
 }
 
