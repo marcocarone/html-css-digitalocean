@@ -35,6 +35,14 @@ body {
   width: 180px;
 }
 
+.ico-menu {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  color: #2285fd;
+  font-size: 1.2em;
+}
+
 .menu_inline li {
   display: inline-block;
 }
@@ -51,11 +59,6 @@ body {
 
 .menu-color:hover {
   color: #2285fd;
-}
-
-.ico-menu {
-  color: #2285fd;
-  font-size: 1.2em;
 }
 
 .fa-chevron-down:before {
@@ -571,7 +574,7 @@ body {
     list-style: none;
   }
 
-  #xxs-no-p {
-    padding-right: 1px;
+  .p_r_60 {
+    padding-right: 0px;
   }
 }
